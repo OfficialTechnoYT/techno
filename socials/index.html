@@ -85,36 +85,34 @@
 		opacity: 0.5;
 	}
 
-	.nav-container .home {
+	.nav-container .home,
+	.nav-container .productions,
+	.nav-container .domore, {
 		color: white;
 	}
 
-        .nav-container .techno {
+        .nav-container .techno,
+	.nav-container .techno-home {
             color: rgba(200, 100, 100, 1);
         }
 
         .nav-container .codek {
             color: rgba(75, 75, 175, 1);
         }
-        
-        .nav-container .productions {
-            color: white;
-        }
-
-	.nav-container .domore {
-		color: white;
-	}
 
   .nav-container .socials {
     color: rgba(55, 143, 250, 1);
   }
 
-	.nav-container .home:hover {
+	.nav-container .home:hover,
+	.nav-container .productions:hover,
+	.nav-container .domore:hover {
 		background: white;
 		color: black;
 	}
 
-        .nav-container .techno:hover {
+        .nav-container .techno:hover,
+	.nav-container .techno-home:hover {
             background: rgba(200, 100, 100, 1);
             color: white;
         }
@@ -123,16 +121,6 @@
             background: rgba(50, 50, 150, 1);
             color: white;
         }
-        
-        .nav-container .productions:hover {
-            background: white;
-            color: black;
-        }
-
-	.nav-container .domore:hover {
-		background: white;
-		color: black;
-	}
 
   .nav-container .socials:hover {
     background: rgba(55, 143, 250, 1);
@@ -360,7 +348,8 @@
         <a href="https://www.thestrype.com/productions" class="productions">Productions</a>
 	      <a href="https://domore.thestrype.com" class="domore">DoMore</a>
 	      <div class="nav-separator"></div>
-	      <a href="/socials" class="socials">Socials</a>
+	      <a href="./" class="techno-home">Techno Home</a>
+	      <a href="#here" class="socials">Socials</a>
     </div>
 
     <section id="section1" class="section">
