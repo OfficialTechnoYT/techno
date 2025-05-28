@@ -166,7 +166,7 @@
 		margin-top: 20px;
 	}
 
-	.not-found .home-button {
+	.button-row {
 		display: inline-block;
             	padding: 10px 20px;
             	border-radius: 30px;
@@ -175,22 +175,22 @@
             	transition: background 0.3s ease, color 0.3s ease;
 	}
 
-	.not-found #techno-home {
+	.button-row #techno-home {
 		border: 2px solid rgba(200, 100, 100, 1);
 		color: rgba(200, 100, 100, 1);
 	}
 
-        .not-found #strype-home {
+        .button-row #strype-home {
 		border: 2px solid black;
             	color: black;
         }
 
-	.not-found #techno-home:hover {
+	.button-row #techno-home:hover {
 		background: rgba(200, 100, 100, 1);
 		color: white;
 	}
 
-        .not-found #strype-home:hover {
+        .button-row #strype-home:hover {
             	background: black;
             	color: white;
         }
@@ -237,8 +237,10 @@
 
     <section class="not-found">
         <h1>404: Page Not Found</h1>
-	<a href="./" id="techno-home" class="home-button">Go To Techno Home</a>
-        <a href="https://www.thestrype.com" id="strype-home" class="home-button">Go To Strype Home</a>
+	<div class="button-row">
+		<a href="./" id="techno-home">Go To Techno Home</a>
+        	<a href="https://www.thestrype.com" id="strype-home">Go To Strype Home</a>
+	</div>
     </section>
 </main>
 <footer class="footer">
